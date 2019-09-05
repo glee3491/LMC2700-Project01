@@ -1,0 +1,84 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background-image: url(bg.jpg);
+    background-repeat: repeat;
+    text-align: center;
+}
+header {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+    padding: 10px;
+    height: 70px;
+    font-size: 40px;
+    color: dimgray;
+    text-align: center;
+}
+section {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0px;
+    padding: 50px;
+    height: 400px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-align: center;
+}
+footer {
+    margin: 0px;
+    padding: 0px;
+    float: bottom;
+    width: 100%;
+    height: 30px;
+}
+.navibar {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.navibar>li {
+    display: inline-block;
+    color: dimgray;
+}
+.navibar>li>a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color:dimgray;
+}
+.pic {
+    float: left;
+    width: 20%;
+    margin: 0px;
+    height: 500px;
+    padding: 10px;
+}
+.pic>img {
+    position: relative;
+}
+.profile {
+    position: relative;
+    overflow: auto;
+    float: right;
+    width: 70%;
+    margin: 0px;
+    height: 500px;
+    padding: 10px;
+}
+.profile>p {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: underline;
+}
+.profile>ul>li {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 14px;
+    text-align: left;
+}
